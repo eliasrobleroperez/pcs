@@ -1,3 +1,5 @@
+markdown
+django-filter
 certifi==2019.3.9
 chardet==3.0.4
 defusedxml==0.6.0

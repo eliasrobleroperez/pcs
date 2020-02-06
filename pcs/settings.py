@@ -37,7 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
 ]
+
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -78,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'projectcl',
         'USER': 'postgres',
-        'PASSWORD': 'password',
+        'PASSWORD': '1234elias',
         'HOST': 'database-1.ctkv7k0obkqy.us-east-1.rds.amazonaws.com',
         'PORT': '5432'
     }
