@@ -52,10 +52,10 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOW_METHODS = (
-'DELETE',
-'GET',
-'POST',
-'PUT',
+    'DELETE',
+    'GET',
+    'POST',
+    'PUT',
 )
 
 
