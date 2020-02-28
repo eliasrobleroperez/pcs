@@ -39,10 +39,10 @@ schema_view = get_swagger_view(title='EMS API Documentation')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^api_documentation/$',schema_view),
     re_path(r'^',include(router.urls)),
     re_path(r'^api/v1/',include('Login.urls')),
     re_path(r'^api/v2/',include('Profile.urls')),
+    url(r'^api_documentation/$',schema_view),
 ]
 
 
